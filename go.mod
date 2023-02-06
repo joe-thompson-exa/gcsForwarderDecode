@@ -1,4 +1,4 @@
-module github.com/joe-thompson-exa/gcsForwarderDecode
+module gcsForwarderDecode
 
 go 1.20
 
