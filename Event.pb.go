@@ -4,7 +4,7 @@
 // 	protoc        v3.19.1
 // source: Event.proto
 
-package gcsForwarderDecode
+package main
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
