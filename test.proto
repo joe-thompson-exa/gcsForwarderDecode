@@ -1,0 +1,345 @@
+ˆ
+$73da54a9-0a04-4c1b-a243-d2f984fa35e5È<28>Nov 01 14:01:00 2022 tks_en_4dc_kt MSWinEventLog,1,Security,29113675,Nov 01 14:01:00 2022,4768,Microsoft-Windows-Security-Auditing,testdrive\tks_en_4dc_kt$@testdrive.com,N/A,Failure Audit,tks_en_4dc_kt,Kerberos Authentication Service,,A Kerberos authentication ticket (TGT) was requested.    Account Information:   Account Name:  tks_en_4dc_kt$@testdrive.com   Supplied Realm Name: testdrive   User ID:   tks_en_4dc_kt$    Service Information:   Service Name:  krbtgt/testdrive   Service ID:  tks_en_4dc_kt$    Network Information:   Client Address:  10.37.0.157   Client Port:  63082    Additional Information:   Ticket Options:  0x40810010   Result Code:  0x0   Ticket Encryption Type: 0xffffffff   Pre-Authentication Type: -    Certificate Information:   Certificate Issuer Name:     Certificate Serial Number:    Certificate Thumbprint:      Certificate information is only provided if a certificate was used for pre-authentication.    Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.,29113668, dest_host=;  qX6vf8WyCVwEzAYnFq97 tdir_20230131161923_26db281c739285cec9a3‡¢˚õ√0 *2
+subject
+
+
+endpoint2
+tier
+
+
+Tier 12
+domain
+
+	testdrive2
+result_code
+
+0x02
+host
+
+tks_en_4dc_kt2?
+msg_type3
+1
+/microsoft-windows-kv-endpoint-login-4768-custom2*
+legacy_activity_type
+
+computer-logon2
+legacy_product
+
+DC2R
+builder_nameB
+@
+>microsoft-windows-endpoint-4768-success-kerberos-demo-computer2/
+raw_log_time_format
+
+MMM dd HH:mm:ss yyyy2F
+
+event_name8
+6
+4A Kerberos authentication ticket (TGT) was requested2
+outcome
+	
+success24
+activity_type#
+!
+endpoint-authentication:success2
+src_ip:
+10.37.0.1572
+parser_version
+
+
+v1.0.02
+dest_ip:
+10.37.0.1572
+	landscape
+
+
+endpoint2
+raw_log_time2	
+‡¢˚õ√02
+	dest_portÍÏ2L
+discard_reason:
+8
+6No matching condition for event in conditional mapping2
+user_sid
+
+tks_en_4dc_kt$2
+user_domain
+
+	testdrive2
+ingest_time2	
+Ìõé≈‡02
+platform
+	
+Windows2
+vendor
+
+	Microsoft2
+activity
+
+authentication2
+user
+
+tks_en_4dc_kt$2
+
+event_code
+
+47682
+raw_log_sizeÈ2#
+processing_timestamp2	
+£è≈‡02
+product
+	
+Windows:$0798f484-a183-11ed-b519-8b9b49dd8deePZ
+	c_dataset
+
+tdirZ)
+c_dataset_run
+
+26db281c739285cec9a3Z)
+c_dataset_timestamp
+
+20230131161923Z 
+PubsubId
+
+6779550326257502j!
+m_exa_sc_agent_type
+
+
+syslogj)
+m_exa_sc_hostname
+
+jt-test.internalj#
+m_forwarder
+
+jt-test.internalrÈ<28>Nov 01 14:01:00 2022 tks_en_4dc_kt MSWinEventLog,1,Security,29113675,Nov 01 14:01:00 2022,4768,Microsoft-Windows-Security-Auditing,testdrive\tks_en_4dc_kt$@testdrive.com,N/A,Failure Audit,tks_en_4dc_kt,Kerberos Authentication Service,,A Kerberos authentication ticket (TGT) was requested.    Account Information:   Account Name:  tks_en_4dc_kt$@testdrive.com   Supplied Realm Name: testdrive   User ID:   tks_en_4dc_kt$    Service Information:   Service Name:  krbtgt/testdrive   Service ID:  tks_en_4dc_kt$    Network Information:   Client Address:  10.37.0.157   Client Port:  63082    Additional Information:   Ticket Options:  0x40810010   Result Code:  0x0   Ticket Encryption Type: 0xffffffff   Pre-Authentication Type: -    Certificate Information:   Certificate Issuer Name:     Certificate Serial Number:    Certificate Thumbprint:      Certificate information is only provided if a certificate was used for pre-authentication.    Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.,29113668, dest_host=;  qX6vf8WyCVwEzAYnFq97 tdir_20230131161923_26db281c739285cec9a3∂
+$731c6135-9887-45de-9737-142e6c2d2382–<28>Nov 01 14:01:00 2022 proxy_486 MSWinEventLog,1,Security,29113675,Nov 01 14:01:00 2022,4768,Microsoft-Windows-Security-Auditing,testdrive\proxy_486$@testdrive.com,N/A,Failure Audit,proxy_486,Kerberos Authentication Service,,A Kerberos authentication ticket (TGT) was requested.    Account Information:   Account Name:  proxy_486$@testdrive.com   Supplied Realm Name: testdrive   User ID:   proxy_486$    Service Information:   Service Name:  krbtgt/testdrive   Service ID:  proxy_486$    Network Information:   Client Address:  10.10.2.52   Client Port:  63082    Additional Information:   Ticket Options:  0x40810010   Result Code:  0x0   Ticket Encryption Type: 0xffffffff   Pre-Authentication Type: -    Certificate Information:   Certificate Issuer Name:     Certificate Serial Number:    Certificate Thumbprint:      Certificate information is only provided if a certificate was used for pre-authentication.    Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.,29113668, dest_host=;  qX6vf8WyCVwEzAYnFq97 tdir_20230131161923_26db281c739285cec9a3‡¢˚õ√0 *2
+subject
+
+
+endpoint2
+tier
+
+
+Tier 12
+domain
+
+	testdrive2
+result_code
+
+0x02
+host
+
+	proxy_4862?
+msg_type3
+1
+/microsoft-windows-kv-endpoint-login-4768-custom2*
+legacy_activity_type
+
+computer-logon2
+legacy_product
+
+DC2R
+builder_nameB
+@
+>microsoft-windows-endpoint-4768-success-kerberos-demo-computer2/
+raw_log_time_format
+
+MMM dd HH:mm:ss yyyy2F
+
+event_name8
+6
+4A Kerberos authentication ticket (TGT) was requested2
+outcome
+	
+success24
+activity_type#
+!
+endpoint-authentication:success2
+src_ip:
+
+10.10.2.522
+parser_version
+
+
+v1.0.02
+dest_ip:
+
+10.10.2.522
+	landscape
+
+
+endpoint2
+raw_log_time2	
+‡¢˚õ√02
+	dest_portÍÏ2L
+discard_reason:
+8
+6No matching condition for event in conditional mapping2
+user_sid
+
+
+proxy_486$2
+user_domain
+
+	testdrive2
+ingest_time2	
+¸õé≈‡02
+platform
+	
+Windows2
+vendor
+
+	Microsoft2
+activity
+
+authentication2
+user
+
+
+proxy_486$2
+
+event_code
+
+47682
+raw_log_size–2#
+processing_timestamp2	
+£è≈‡02
+product
+	
+Windows:$0798f488-a183-11ed-b519-8b9b49dd8deePZ
+	c_dataset
+
+tdirZ)
+c_dataset_run
+
+26db281c739285cec9a3Z)
+c_dataset_timestamp
+
+20230131161923Z 
+PubsubId
+
+6779550326257502j!
+m_exa_sc_agent_type
+
+
+syslogj)
+m_exa_sc_hostname
+
+jt-test.internalj#
+m_forwarder
+
+jt-test.internalr–<28>Nov 01 14:01:00 2022 proxy_486 MSWinEventLog,1,Security,29113675,Nov 01 14:01:00 2022,4768,Microsoft-Windows-Security-Auditing,testdrive\proxy_486$@testdrive.com,N/A,Failure Audit,proxy_486,Kerberos Authentication Service,,A Kerberos authentication ticket (TGT) was requested.    Account Information:   Account Name:  proxy_486$@testdrive.com   Supplied Realm Name: testdrive   User ID:   proxy_486$    Service Information:   Service Name:  krbtgt/testdrive   Service ID:  proxy_486$    Network Information:   Client Address:  10.10.2.52   Client Port:  63082    Additional Information:   Ticket Options:  0x40810010   Result Code:  0x0   Ticket Encryption Type: 0xffffffff   Pre-Authentication Type: -    Certificate Information:   Certificate Issuer Name:     Certificate Serial Number:    Certificate Thumbprint:      Certificate information is only provided if a certificate was used for pre-authentication.    Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.,29113668, dest_host=;  qX6vf8WyCVwEzAYnFq97 tdir_20230131161923_26db281c739285cec9a3´
+$4b61d689-e75e-4d98-946f-21debd32270aÀ<28>Nov 01 14:04:00 2022 proxy_41 MSWinEventLog,1,Security,29113675,Nov 01 14:04:00 2022,4768,Microsoft-Windows-Security-Auditing,testdrive\proxy_41$@testdrive.com,N/A,Failure Audit,proxy_41,Kerberos Authentication Service,,A Kerberos authentication ticket (TGT) was requested.    Account Information:   Account Name:  proxy_41$@testdrive.com   Supplied Realm Name: testdrive   User ID:   proxy_41$    Service Information:   Service Name:  krbtgt/testdrive   Service ID:  proxy_41$    Network Information:   Client Address:  10.136.0.81   Client Port:  63082    Additional Information:   Ticket Options:  0x40810010   Result Code:  0x0   Ticket Encryption Type: 0xffffffff   Pre-Authentication Type: -    Certificate Information:   Certificate Issuer Name:     Certificate Serial Number:    Certificate Thumbprint:      Certificate information is only provided if a certificate was used for pre-authentication.    Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.,29113668, dest_host=;  qX6vf8WyCVwEzAYnFq97 tdir_20230131161923_26db281c739285cec9a3Ä°Üú√0 *2
+subject
+
+
+endpoint2
+tier
+
+
+Tier 12
+domain
+
+	testdrive2
+result_code
+
+0x02
+host
+
+
+proxy_412?
+msg_type3
+1
+/microsoft-windows-kv-endpoint-login-4768-custom2*
+legacy_activity_type
+
+computer-logon2
+legacy_product
+
+DC2R
+builder_nameB
+@
+>microsoft-windows-endpoint-4768-success-kerberos-demo-computer2/
+raw_log_time_format
+
+MMM dd HH:mm:ss yyyy2F
+
+event_name8
+6
+4A Kerberos authentication ticket (TGT) was requested2
+outcome
+	
+success24
+activity_type#
+!
+endpoint-authentication:success2
+src_ip:
+10.136.0.812
+parser_version
+
+
+v1.0.02
+dest_ip:
+10.136.0.812
+	landscape
+
+
+endpoint2
+raw_log_time2	
+Ä°Üú√02
+	dest_portÍÏ2L
+discard_reason:
+8
+6No matching condition for event in conditional mapping2
+user_sid
+
+	proxy_41$2
+user_domain
+
+	testdrive2
+ingest_time2	
+˛õé≈‡02
+platform
+	
+Windows2
+vendor
+
+	Microsoft2
+activity
+
+authentication2
+user
+
+	proxy_41$2
+
+event_code
+
+47682
+raw_log_sizeÀ2#
+processing_timestamp2	
+Ò£è≈‡02
+product
+	
+Windows:$0798f489-a183-11ed-b519-8b9b49dd8deePZ
+	c_dataset
+
+tdirZ)
+c_dataset_run
+
+26db281c739285cec9a3Z)
+c_dataset_timestamp
+
+20230131161923Z 
+PubsubId
+
+6779550326257502j!
+m_exa_sc_agent_type
+
+
+syslogj)
+m_exa_sc_hostname
+
+jt-test.internalj#
+m_forwarder
+
+jt-test.internalrÀ<28>Nov 01 14:04:00 2022 proxy_41 MSWinEventLog,1,Security,29113675,Nov 01 14:04:00 2022,4768,Microsoft-Windows-Security-Auditing,testdrive\proxy_41$@testdrive.com,N/A,Failure Audit,proxy_41,Kerberos Authentication Service,,A Kerberos authentication ticket (TGT) was requested.    Account Information:   Account Name:  proxy_41$@testdrive.com   Supplied Realm Name: testdrive   User ID:   proxy_41$    Service Information:   Service Name:  krbtgt/testdrive   Service ID:  proxy_41$    Network Information:   Client Address:  10.136.0.81   Client Port:  63082    Additional Information:   Ticket Options:  0x40810010   Result Code:  0x0   Ticket Encryption Type: 0xffffffff   Pre-Authentication Type: -    Certificate Information:   Certificate Issuer Name:     Certificate Serial Number:    Certificate Thumbprint:      Certificate information is only provided if a certificate was used for pre-authentication.    Pre-authentication types, ticket options, encryption types and result codes are defined in RFC 4120.,29113668, dest_host=;  qX6vf8WyCVwEzAYnFq97 tdir_20230131161923_26db281c739285cec9a3

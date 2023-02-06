@@ -1,0 +1,106 @@
+syntax = "proto3";
+
+package gcsForwarderDecode;
+
+option go_package = "github.com/joe-thompson-exa/gcsForwarderDecode";
+
+message Timestamp {
+    int64 millis = 1;
+}
+
+message ConfigVersion {
+    //Default version.
+    int32 default = 1;
+    //Custom version.
+    int32 custom = 2;
+}
+
+message FieldValue {
+    oneof sealed_value {
+        StringFieldValue stringFieldValue = 1;
+        BoolFieldValue boolFieldValue = 2;
+        IntFieldValue intFieldValue = 3;
+        LongFieldValue longFieldValue = 4;
+        DoubleFieldValue doubleFieldValue = 5;
+        TimestampFieldValue timestampFieldValue = 6;
+        Ipv4FieldValue ipv4FieldValue = 7;
+        Ipv6FieldValue ipv6FieldValue = 8;
+        ArrayFieldValue arrayFieldValue = 9;
+        NumberFieldValue numberFieldValue = 10;
+        DateTimeFieldValue dateTimeFieldValue = 11;
+        UrlFieldValue urlFieldValue = 12;
+        EmailFieldValue emailFieldValue = 13;
+        DomainFieldValue domainFieldValue = 14;
+        HashFieldValue hashFieldValue = 15;
+    }
+}
+
+message StringFieldValue {
+    string value = 1;
+}
+message BoolFieldValue {
+    bool value = 1;
+}
+message IntFieldValue {
+    int32 value = 1;
+}
+message LongFieldValue {
+    int64 value = 1;
+}
+message DoubleFieldValue {
+    double value = 1;
+}
+message TimestampFieldValue {
+    Timestamp value = 1;
+}
+message Ipv4FieldValue {
+    string value = 1;
+}
+message Ipv6FieldValue {
+    string value = 1;
+}
+message ArrayFieldValue {
+    repeated FieldValue value = 1;
+}
+message NumberFieldValue {
+    double value = 1;
+}
+message DateTimeFieldValue {
+    string value = 1;
+}
+message UrlFieldValue {
+    string value = 1;
+}
+message EmailFieldValue {
+    string value = 1;
+}
+message DomainFieldValue {
+    string value = 1;
+}
+message HashFieldValue {
+    string value = 1;
+}
+
+//A thing that happened on some device and needs to be processed by pipeline.
+//Typically constructed from a log line.
+message Event {
+    // option (scalapb.message).extends = "com.exabeam.pipeline.models.EventExt";
+    //Unique id.
+    string id = 1;
+    //Body of first log message. Additional log messages in "AdditionalLogs" field inside "fields" field.
+    string log = 2;
+    //Approximate time of event. Used to be "time" field.
+    Timestamp approxLogTime = 3;
+    //Is semantic parsing of log was successful.
+    bool parsed = 4;
+    //Version of field's types configuration.
+    ConfigVersion fieldTypesVersion = 5;
+    //Fields extracted from a log message during processing by pipeline.
+    map<string, FieldValue> fields = 6;
+    repeated string rawLogIds = 7;
+    bool cimCompliant = 8;
+    bool coreFieldsMissed = 9;
+    bool detectionFieldsMissed = 10;
+    //Custom fields extracted from a log message during processing by pipeline
+    map<string, FieldValue> customFields = 11;
+}
